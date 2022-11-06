@@ -41,14 +41,14 @@ const Home = () => {
                 </button>
             </div>
         </div>
-        <div style={{backgroundColor: "#fff4e5", paddingTop: "50px", paddingBottom: "50px"}}>
+        <div style={{backgroundColor: "#fff4e5", paddingTop: "50px", paddingBottom: "95px"}}>
             <div class="container">
                 <div style={{width: "50%", paddingBottom: "50px", display: "inline-block", verticalAlign: "top"}}>
                     <div style={{maxWidth: "270px", maxHeight: "399px", position: "relative", left: "40px", display: "inline-block"}}>
                         <img src="http://127.0.0.1:8887/reservation-system/img/food1.jpg" class="d-block w-100" alt="..."/>
                     </div>
                     <div style={{maxWidth: "270px", maxHeight: "399px", position: "relative", left: "60px" , display: "inline-block", top: "100px"}}>
-                        <img src="http://127.0.0.1:8887/reservation-system/img/view1.jpg" class="d-block w-100" alt="..."/>
+                        <img src="http://127.0.0.1:8887/reservation-system/img/food2.webp" class="d-block w-100" alt="..."/>
                     </div>
                 </div>
                 <div style={{width: "50%", display: "inline-block"}}>
@@ -64,6 +64,32 @@ const Home = () => {
                         Proin vulputate mattis metus, eget sodales mauris semper quis. Sed hendrerit justo ut ipsum facilisis malesuada. Etiam id nunc viverra, faucibus purus a, ultricies lacus. Maecenas eros purus, placerat vel dolor id, finibus egestas libero. Phasellus luctus elit massa. Fusce nunc purus, mattis tristique tortor ut, porta finibus nulla. Donec sapien elit, convallis sed interdum nec, interdum nec metus.
                     </p>
                     <a href="#" style={btnStyle}>See the menu</a>
+                </div>
+            </div>
+        </div>
+        <div style={{backgroundColor: "#f2f2f2", paddingTop: "50px", paddingBottom: "50px"}}>
+            <div class="container">
+                <div style={{width: "50%", display: "inline-block"}}>
+                    <h2>World Class Food</h2>
+                    <h4>Served at your table</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tortor elit, elementum at est vel, 
+
+                        Sed elementum diam ut enim laoreet, quis faucibus augue venenatis. Integer mattis gravida elit eget consectetur. Donec dignissim in arcu nec consequat.
+
+                        Vestibulum et mauris massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus laoreet massa quis ante interdum congue. Curabitur convallis, nunc ut accumsan dapibus, ex nunc vulputate diam, et gravida neque urna in lacus. Aliquam dignissim ultricies nisl sit amet ullamcorper. Proin nec elit mauris. Morbi tortor orci, consectetur in velit eu, faucibus suscipit ante.
+
+                        Proin vulputate mattis metus, eget sodales mauris semper quis. Sed hendrerit justo ut ipsum facilisis malesuada. 
+                    </p>
+                    <a href="#" style={btnStyle}>Reserve Now</a>
+                </div>
+                <div style={{width: "50%", paddingBottom: "50px", display: "inline-block", verticalAlign: "top"}}>
+                    <div style={{maxWidth: "570px", maxHeight: "160px", position: "relative", left: "70px", top: "60px", display: "inline-block"}}>
+                        <img src="http://127.0.0.1:8887/reservation-system/img/table1.jpg" class="d-block w-100" alt="..."/>
+                    </div>
+                    <div style={{maxWidth: "570px", maxHeight: "160px", position: "relative", left: "140px" , display: "inline-block", top: "80px"}}>
+                        <img src="http://127.0.0.1:8887/reservation-system/img/table2.jpg" class="d-block w-100" alt="..."/>
+                    </div>
                 </div>
             </div>
         </div>
